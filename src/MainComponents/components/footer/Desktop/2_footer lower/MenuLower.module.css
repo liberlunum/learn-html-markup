@@ -1,0 +1,11 @@
+.menuTextContainer {
+    display: flex;
+    flex-direction: row;
+    color: #0D0842;
+    font-family: Nunito Sans;
+    font-size: 18px;
+}
+
+.menuText {
+    margin-right: 40px;
+}

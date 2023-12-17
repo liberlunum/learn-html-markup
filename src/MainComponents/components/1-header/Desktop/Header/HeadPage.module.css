@@ -1,0 +1,76 @@
+.headerContainer {
+    display: flex;
+    height: 378px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 76px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.newReleaseContainer {
+    display: flex;
+    width: 501px;
+    height: 235px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.headerText,
+.headerParagraph {
+    color: #0D0842;
+    font-family: Montserrat;
+}
+
+.headerText {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.headerParagraph {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.headerButton {
+    margin-top: 20px;
+    padding: 7px 49px;
+    font-family: "Nunito Sans";
+    color: white;
+    background-color: #FFCE1A;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+.showBooksContainer {
+    display: flex;
+    position: relative;
+    width: 486.953px;
+    height: 378px;
+    align-items: center;
+}
+
+.imgBook1,
+.imgBook2,
+.imgBook3 {
+    position: absolute;
+}
+
+.imgBook1 {
+    z-index: 3;
+}
+
+.imgBook2 {
+    z-index: 2;
+    left: 120px;
+    bottom: 30px;
+}
+
+.imgBook3 {
+    z-index: 1;
+    right: 0;
+    bottom: 60px;
+}

@@ -1,0 +1,68 @@
+.navBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+    padding: 35px 98px 9px 100px;
+}
+
+.leftPartNavBar,
+.rightPartNavBar {
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon {
+    margin-right: 50px;
+}
+.imitationInput {
+    padding: 7px 60px 7px 15px;
+    display: inline-flex;
+    align-items: center;
+    width: 296px;
+    border-radius: 8px;
+    border: none;
+    background: #EAEAEA;
+    margin-left: 50px;
+}
+.iconSearch{
+    margin-right: 10px;
+}
+.imitationInputText {
+    color: #828282;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+}
+.iconAccount {
+    margin-right: 15px;
+}
+
+.iconFav {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.basketContainer {
+    padding: 7px 40px 7px 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFCE1A;
+    border-radius: 8px;
+}
+
+.iconBasket {
+    margin-right: 10px;
+}
+
+.basketText {
+    margin-left: 10px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}

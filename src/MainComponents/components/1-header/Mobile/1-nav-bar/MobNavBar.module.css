@@ -1,0 +1,30 @@
+.navBarContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 24px 24px 20px 24px;
+    margin-bottom: 20px;
+}
+
+
+.imitationInput {
+    border-radius: 8px;
+    border: none;
+    background: #EAEAEA;
+    display: flex;
+    width: 245px;
+    padding: 8px 30px 8px 15px;
+    align-items: center;
+}
+
+.iconSearch {
+    margin-right: 18px;
+}
+
+.imitationInputText {
+    color: #828282;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+}

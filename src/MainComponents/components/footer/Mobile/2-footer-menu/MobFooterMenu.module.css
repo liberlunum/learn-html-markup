@@ -1,0 +1,16 @@
+.footerMenuContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerText {
+    color: #FFFFF8;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}

@@ -1,0 +1,9 @@
+.footerContainer {
+    background: linear-gradient(285deg, #FEAF38 48.52%, #FFCE1A 100.93%);
+    position: relative;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}

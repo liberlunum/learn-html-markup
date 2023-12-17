@@ -1,0 +1,33 @@
+.booksArtContainer {
+    height: 117px;
+    display: flex;
+    position: relative;
+}
+.booksArt1,
+.booksArt2,
+.booksArt3,
+.booksArt4 {
+    position: absolute;
+}
+.booksArt1 {
+    z-index: 1;
+    top: 1px;
+}
+
+.booksArt2 {
+    left: 93px;
+    top: 33px;
+    z-index: 1;
+}
+
+.booksArt3 {
+    right: 115px;
+    top: 11px;
+    z-index: 1;
+}
+
+.booksArt4 {
+    right: 0;
+    top: 5px;
+    z-index: 1;
+}

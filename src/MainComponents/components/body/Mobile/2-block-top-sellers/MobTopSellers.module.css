@@ -1,0 +1,94 @@
+.topSellersContainer {
+    margin-left: 24px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+}
+
+/*.header {
+    color: red
+}
+
+.header.mobile {
+    color: blue;
+}*/
+
+.header,
+.headerInfo,
+.price {
+    color: #0D0842;
+    font-family: Montserrat;
+}
+
+.header {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.dropdownContainer {
+    display: flex;
+    width: 150px;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7.234px;
+    border: 1px solid rgba(0, 12, 102, 0.10);
+    background: rgba(234, 234, 234, 0.90);
+    backdrop-filter: blur(67.81915283203125px);
+}
+.dropdownText {
+    color: #0D0842;
+    font-family: Nunito Sans;
+    font-size: 16px;
+}
+
+.bookContainer {
+    display: flex;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.imgBook {
+    border-radius: 5px;
+    margin: 10px 20.41px 10px 15px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.headerInfo {
+    margin-top: 60px;
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.textInfo {
+    width: 184.525px;;
+    display: flex;
+    color: rgba(13, 8, 66, 0.52);
+    font-family: Nunito Sans;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.iconInfo {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.iconCart {
+    display: flex;
+    margin-right: 10px;
+}

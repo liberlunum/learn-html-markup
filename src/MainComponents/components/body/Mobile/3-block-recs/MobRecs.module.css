@@ -1,0 +1,77 @@
+.recsContainer {
+    margin-left: 24px;
+    margin-right: 5px;
+    margin-bottom: 80px;
+}
+
+/*.header {
+    color: red
+}
+
+.header.mobile {
+    color: blue;
+}*/
+
+.header,
+.headerInfo,
+.price {
+    color: #0D0842;
+    font-family: Montserrat;
+}
+
+.header {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.bookContainer {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.imgBook {
+    border-radius: 5px;
+    margin: 10px 20.41px 10px 15px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.headerInfo {
+    margin-top: 60px;
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.textInfo {
+    width: 184.525px;;
+    display: flex;
+    color: rgba(13, 8, 66, 0.52);
+    font-family: Nunito Sans;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.iconInfo {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.iconCart {
+    display: flex;
+    margin-right: 10px;
+}

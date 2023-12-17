@@ -1,0 +1,13 @@
+
+.textMenu {
+    margin-top: 40px;
+    color: #0D0842;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+
+}
+.text {
+    margin-right: 40px;
+}
